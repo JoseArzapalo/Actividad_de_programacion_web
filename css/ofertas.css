@@ -1,0 +1,54 @@
+.cuerpo{
+    background: rgb(0, 0, 0);
+
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-around;
+}
+    .articulo{
+        background: rgb(51, 193, 136);
+
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        margin: 5px;
+        width: 350px;
+    }
+        .articulo h4{
+            text-align: center;
+        }
+        .name{
+            background: cornsilk;
+
+            margin: 5px;
+            text-align: justify;
+            border-radius: 15px;
+            padding: 5px;
+        }
+        .list{
+            background: rgb(241, 181, 133);
+            margin: 5px;
+        }
+    .comprar{
+        background: rgb(186, 184, 184);
+        
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        
+
+    }
+        .comprar a{
+            background: rgb(243, 243, 243);
+            
+            text-decoration: none;
+            display: flex;
+            margin: 5px;
+        }
+        .comprar p{
+            margin: 5px;
+            text-align: center;
+        }
+            .comprar:hover{
+                background: gold;
+            }

@@ -1,0 +1,52 @@
+.linea{
+    background: black;
+
+    display         : flex  ;
+    flex-direction  : column;
+}   
+    .encabesado{
+        background          : url(/fotos/titulo.png);
+        background-position : center;
+        background-size     : cover ;
+
+        display         : flex          ;
+        justify-content : space-around  ;
+        align-items     : center        ;
+    }
+        .logo{
+            color: black;
+
+            background          : url(/fotos/LogoCat.png);
+            background-position : center;
+            background-size     : cover ;
+
+            width   : 200px     ;
+            height  : 250px     ;
+            margin  : auto 0px  ;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+        }
+            .logo:hover{
+                background          : url(/fotos/LogoCat1.jpg);
+                background-position : center;
+                background-size     : cover ;
+            }
+        .titulo{
+            background: rgba(255, 158, 39, 0.512);
+            
+            display         : flex  ;
+            justify-content : center;
+            align-items     : center;
+
+            height  : 100px;
+            width   : 450px;
+        }
+        
+      
+        

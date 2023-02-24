@@ -1,0 +1,73 @@
+.articulos{
+    background: rgb(0, 0, 0);
+
+    display: flex;
+    justify-content: space-around;
+
+    margin: 5px 0px;
+    height: 450px;
+}
+    .contenido{
+        background: rgb(113, 128, 213);
+
+        margin: 5px;
+        width: 350px;
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+        .contenido:hover{
+            background: red;
+        }
+        .imag{
+            background: url(/imagenesQueOfrecemos/lugar1.png);
+            background-position : center;
+            background-size     : cover ;
+
+            margin  : 5px   ;
+            width   : 340px ;
+            height  : 220px ;
+        }
+            .imag1{
+                background: url(/imagenesQueOfrecemos/lugar2.png);
+                background-position : center;
+                background-size     : cover ;
+    
+                margin  : 5px   ;
+                width   : 340px ;
+                height  : 220px ;
+            }
+            .imag2{
+                background: url(/imagenesQueOfrecemos/lugar.png);
+                background-position : center;
+                background-size     : cover ;
+    
+                margin  : 5px   ;
+                width   : 340px ;
+                height  : 220px ;
+            }
+        .name{
+            background: rgb(198, 188, 198);
+
+            margin: 5px;
+            text-decoration: none;
+            text-align: justify;
+        }
+        .name1{
+            background: rgb(198, 188, 198);
+
+            margin: 5px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .name2{
+            background: rgb(198, 188, 198);
+
+            margin: 5px;
+            text-decoration: none;
+            text-align: center;
+        }
+            .name2:hover {
+                background: rgb(103, 103, 103);
+            }

@@ -1,0 +1,127 @@
+*{
+    margin  : 4px;
+    padding : 2px;
+
+    box-sizing: border-box;    
+}
+.Cotenedor{
+    height: 90px;
+
+    display: flex;
+    flex-flow: row;
+}
+    .enlases{
+        display: flex;
+        flex-flow: wrap;
+
+        height: auto;
+        width: 130px;
+    }
+.linea{
+    background: rgb(0, 0, 0);
+
+    display         : flex  ;
+    flex-direction  : column;
+} 
+    .encabesado{
+        color: rgb(148, 0, 0);   
+
+        background: url(/Imagenes/fondoComida.jpg);
+        background-position : center;
+        background-size     : cover;
+        
+        display         : flex          ;
+        justify-content : space-around  ;
+    }
+        .titulo{
+            background: rgba(128, 128, 128, 0.668);
+
+            display: flex;
+            justify-content: center;
+            border-radius: 15px;
+        }
+.carousel-item{
+    background: url(/fotos/una-singularidad-centered-symmetry-painted-intricate-volumetric-lighting-beautiful-rich-deep--122310615.png);
+            
+    background-position : center;
+    background-size     : cover ;
+} 
+    .borde{
+        background: rgba(0, 0, 0, 0);
+
+        display         : flex  ;
+        justify-content : center;
+    }   
+    .bordeNum{
+        background: blue;
+
+        display         : flex          ;
+        justify-content : space-around  ;
+        
+        width: 488px ;
+    }
+        .num{
+            background: rgb(191, 191, 191);
+           
+            display         : flex          ;
+            justify-content : space-around  ;
+            text-align      : center        ;
+            
+            margin: 5px 5px;
+        }
+            .ima{
+                background: url(/imagenesQueOfrecemos/banana-caribeña.jpg);
+                
+                background-position : center;
+                background-size     : cover ;
+
+                width: 488px;
+                height: 388px;
+            }
+            .ima1{
+                background: url(/imagenesQueOfrecemos/crema-de-naranja.png);
+
+                background-position : center;
+                background-size     : cover ;
+
+                width: 488px;
+                height: 388px;
+            }
+            .ima2{
+                background: url(/imagenesQueOfrecemos/papa-chimichu.png);
+
+                
+                background-position : center;
+                background-size     : cover ;
+
+                width: 488px;
+                height: 388px;
+            }
+            .ima3{
+                background: url(/imagenesQueOfrecemos/lugar.png);
+                
+                background-position : center;
+                background-size     : cover ;
+
+                width: 488px;
+                height: 388px;
+            }
+            .ima4{
+                background: url(/imagenesQueOfrecemos/lugar1.png);
+
+                background-position : center;
+                background-size     : cover ;
+
+                width: 488px;
+                height: 388px;
+            }
+            .ima5{
+                background: url(/imagenesQueOfrecemos/lugar2.png);
+                
+                background-position : center;
+                background-size     : cover ;
+
+                width: 488px;
+                height: 388px;
+            }
+        

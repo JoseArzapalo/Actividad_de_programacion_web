@@ -1,0 +1,158 @@
+.padre{
+    display     : flex          ;
+    flex-flow   : column nowrap ;
+}
+    .txto-principal{
+        background: rgb(0, 0, 0);
+    }
+        .texto{
+            background: rgb(93, 93, 93);
+            
+            font-size   : 25px      ;
+            text-align  : justify   ;
+        }
+            .texto p{
+                background: rgba(255, 0, 0, 0);
+                
+                text-overflow: clip;
+            }
+    .section{
+        background: rgb(0, 0, 0);
+
+        display: flex;
+    }
+        .articulos{
+            background: whitesmoke;
+
+            display     : flex      ;
+            flex-flow   : row wrap  ;
+
+            justify-content: space-around;
+        }
+            .article{
+                background: rgb(157, 157, 157);
+
+                display         : flex  ;
+                justify-content: center;
+                flex-flow       : wrap  ;
+
+                width: 465px;
+            }   
+                .name{
+                    background: rgb(201, 160, 160);
+                    
+                    margin: auto;
+                }
+                .fecha{
+                    background: rgb(201, 160, 160);
+                    
+                    text-align  : center    ;
+                    font-size   : 20px      ;
+                    margin      : auto;
+                }
+                .txt{   
+                    margin: 5px;
+                }
+                    .titulo{
+                        background: rgb(191, 191, 191);
+
+                        text-align  : justify   ;
+                        margin      : 10px 2px  ;
+                        
+                        width   : auto;
+                        height  : auto;
+                    }
+                        .encabesado .titulo{
+                            background: rgba(191, 191, 191, 0.524);
+
+                            width   : auto;
+                            height  : 80px;
+
+                            padding         : 10px;
+                            border-radius   : 15px;
+                        }
+    .aside{
+        background: url(../imagenes/fondo2.jpg);
+            
+        background-position     : center    ;
+        background-attachment   : contain   ;
+        background-size         : cover     ; 
+
+        margin  : 4px 4px   ;
+        flex    : 1 1 auto  ;
+
+        display     : flex;
+        flex-flow   : wrap;
+        width: 800px;
+    }
+        .secundario{
+            background: rgb(255, 14, 14);
+
+            margin: auto;
+        }
+        .secundario .call1{
+            display     : flex  ;
+            flex-wrap   : nowrap;
+            margin      : auto  ;
+        }
+            .call{
+                background: rgb(158, 158, 158);
+
+                margin: auto;
+            }
+            .call1{
+                background: rgb(158, 158, 158);
+
+                display     : flex      ;
+                flex-flow   : row wrap  ;
+                text-align  : justify   ;
+            }
+
+                .datos{ 
+                    background: rgb(113, 225, 69);
+                            
+                    display : flex  ;
+                    width   : 450px ;
+                    height  : 50px  ;
+                }
+                    .jose{
+                        font-size: 17px;
+
+                        margin      : auto auto ;
+                        text-align  : justify   ;
+                    }
+                .img{
+                    background: url(../Imagenes/fondoComida.jpg);
+                        
+                    background-position     : center    ;
+                    background-size         : cover     ;     
+                }
+                .secundario .img p{
+                    background  : rgba(0, 0, 0, 0.5);
+                    color       : rgb(255, 255, 255);
+                }
+@media (max-width: 1130px){
+    .section{
+        flex-direction: column;
+    }
+
+    .aside{
+        width: auto;
+        height: 700px;
+    }
+}
+    @media (max-width: 920px){
+        .article{
+            flex-direction:     column;
+            justify-content:    center;
+        }
+            .nav{
+                background: rgba(0, 0, 0, 0.764);
+                height: 164px;
+            }
+    }
+        @media (max-width: 820px){
+            .secundario{
+                justify-content: center;
+            }
+        }

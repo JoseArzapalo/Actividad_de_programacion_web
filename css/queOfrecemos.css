@@ -1,0 +1,268 @@
+*{
+    margin  : 5px;  
+}
+
+.encabesado{
+    background: url(/Imagenes/fondo.jpg);
+            
+    background-position     : center    ;
+    background-attachment   : contain   ;
+    background-size         : cover     ;
+}
+    .txto-principal{
+        background: rgb(0, 0, 0);
+
+        display: flex;
+    }
+        .texto{
+            background: rgb(84, 123, 190);
+                
+            text-align: justify;
+            margin: 5px;
+        }
+.cuerpo{
+    background: rgb(0, 0, 0);
+
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}   
+    .menu{
+        background  : rgb(144, 144, 144);
+        color       : rgb(14, 19, 115);
+
+        font-size   : 30px      ;
+        margin      : 5px       ;    
+        display     : flex      ;
+        flex        : 1 1 auto  ;
+
+        justify-content: center;
+    }
+    .borde{
+        background: white;
+
+        display         : flex          ;   
+        flex-flow       : row wrap      ;
+        justify-content : space-around  ;
+    }
+        .articulo{
+            background: rgb(40, 0, 0);
+                
+            width: 400px; /*es el ancho de las resetas*/
+        }
+            .comida{
+                background: url(/imagenesQueOfrecemos/crema-de-naranja.png);
+                    
+                background-position : center;
+                background-size     : cover ;
+
+                height: 300px;
+            }
+                .comida1{
+                    background: url(/imagenesQueOfrecemos/banana-caribeña.jpg);
+                        
+                    background-position : center;
+                    background-size     : cover ;
+
+                    height: 300px;
+                }
+                    .comida2{
+                        background: url(/imagenesQueOfrecemos/masa-naranja.png);
+                        
+                        background-position : center;
+                        background-size     : cover ;
+
+                        height: 300px   ;
+                        margin: 4px 4px ;
+                    }
+                    .comida3{
+                        background: url(/imagenesQueOfrecemos/papa-chimichu.png);
+                        
+                        background-position : center;
+                        background-size     : cover ;
+
+                        height: 300px   ;
+                        margin: 4px 4px ;
+                    }
+                    .comida4{
+                        background: url(/imagenesQueOfrecemos/papas-fritas.png);
+                        
+                        background-position : center;
+                        background-size     : cover ;
+
+                        height: 390px   ;
+                        margin: 4px 4px ;
+                    }
+                .name{
+                    background: rgb(247, 134, 134);
+
+                    text-align  : center    ;
+                    margin      : 4px 4px   ;
+                    font-size   : 23px      ;
+                }
+                .ig{ /*ingredientes*/
+                    background: rgb(39, 177, 180);
+                
+                    display         : flex      ;
+                    margin          : 5px       ;
+
+                    flex-wrap       : wrap      ;
+                    flex-direction  : column    ;
+                }   
+                    .pr{/*texto (preparacion)*/
+                        background  : rgb(2, 64, 4);
+                        color       : aliceblue;
+                    
+                        font-size   : 23px          ;
+                        flex        : auto          ;
+                        text-align  : center        ;
+                    }
+                        .pr1{
+                            background: rgb(212, 124, 17);
+                        
+                            flex        : auto          ;
+                            text-align  : justify       ;
+                            font-size   : 22px          ;
+                        }
+                            .pr1 p{
+                                margin: auto auto 25px;
+                            }
+                .a{     /*texto (ingredientes)*/
+                    background  : rgb(2, 64, 4);
+                    color       : aliceblue;
+                    
+                    font-size   : 23px          ;
+                    flex        : auto          ;
+                    text-align  : center        ;
+                }
+                    .ig1{
+                        background: rgb(212, 124, 17);
+                        
+                        flex        : auto          ;
+                        text-align  : justify       ;
+                        font-size   : 19px          ;
+                        margin      : 5px           ;
+                    }   
+        .lugares{
+            background: rgb(190, 190, 190);
+
+            display         : flex          ;
+            flex-flow       : row wrap      ;
+            justify-content : space-around  ;     
+        }
+            .borde-stilo{
+                background: rgb( 40, 0, 0);
+                
+                width: 420px;
+            }
+                .sitio{
+                    background: url(/imagenesQueOfrecemos/lugar.png);
+                    
+                    background-position : center;
+                    background-size     : cover ;
+
+                    height  : 300px     ;
+                    width   : 400px     ;
+                    margin  : 5px auto  ;
+
+                }
+                .sitio1{
+                    background: url(/imagenesQueOfrecemos/lugar1.png);
+                                        
+                    background-position : center;
+                    background-size     : cover ;
+    
+                    height  : 300px     ;
+                    width   : 400px     ;
+                    margin  : 5px auto  ;
+                }
+                .sitio2{
+                    background: url(/imagenesQueOfrecemos/lugar2.png);
+                                        
+                    background-position : center;
+                    background-size     : cover ;
+    
+                    height  : 300px     ;
+                    width   : 400px     ;
+                    margin  : 5px auto  ;
+                }
+                .sitio3{
+                    background: url(/imagenesQueOfrecemos/lugar3.png);
+                                        
+                    background-position : center;
+                    background-size     : cover ;
+    
+                    height  : 300px     ;
+                    width   : 400px     ;
+                    margin  : 5px auto  ;
+                }
+            .style{
+                background: rgb(55, 183, 32);
+
+                display         : flex          ;
+                flex            : 1 1 auto      ;
+                flex-wrap       : wrap          ;
+                justify-content : space-around  ;
+            }   
+
+                .sitio-titulo{
+                    background: white;
+                    text-align: justify;
+                }
+@media (max-width: 980px){
+    .texto{
+        font-size: 33px;
+    }
+    .a{
+        font-size: 50px;
+    }
+        .ig1{
+            font-size: 30px;
+        }
+    .pr{
+        font-size: 50px;
+    }
+        .pr1{
+            font-size: 30px;
+        }
+    .name{
+        font-size: 35px;
+    }
+        .articulo{
+            width: 900px;
+        }
+        .comida{
+            height: 500px;
+        }
+        .comida1{
+            height: 500px;
+        }
+        .comida2{
+            height: 500px;
+        }
+        .comida3{
+            height: 500px;
+        }
+        .comida4{
+            height: 500px;
+        }
+        .borde-stilo{
+            width:900px;
+        }
+            .sitio{
+                width   : 533px;
+                height  : 388px;
+            }
+            .sitio1{
+                width   : 533px;
+                height  : 388px;
+            }
+            .sitio2{
+                width   : 533px;
+                height  : 388px;
+            }
+            .sitio3{
+                width   : 533px;
+                height  : 388px;
+            }
+}

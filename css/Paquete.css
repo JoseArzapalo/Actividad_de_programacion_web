@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+}
+
+.cuerpo{
+    background: black;
+
+    display         : flex          ;
+    justify-content : space-around  ;
+}
+    .articulo{
+        background: rgb(185, 185, 185);
+
+        width           : 250px ;
+        margin          : 5px   ;
+        border-radius   : 15px  ;
+
+        display     : flex      ;
+        flex        : 0 1 auto  ;
+        flex-flow   : column    ;
+    }
+        .name{
+            background: bisque;
+
+            margin          : 5px   ;
+            border-radius   : 15px  ;
+            font-size       : 25px  ;
+            
+            display         : flex      ;
+            flex            : 1 1 auto  ; 
+            align-items     : center    ;
+            justify-content : center    ;
+        }
+        .lineaRedonda{
+            background: black;
+
+            border-radius   : 15px      ;
+            margin          : 5px 5px   ;
+            height          : 40px      ;
+
+            display     : flex      ;
+            flex        : 0 1 auto  ;
+            align-items : center    ;
+        }
+        .lineaRedonda1{
+            background: black;
+
+            border-radius   : 15px      ;
+            margin          : 5px 5px   ;
+            
+            flex    : 1 1 auto  ;
+            display : flex      ;
+        }
+            .lineaRedonda a{
+                background  : bisque;
+                color       : black ;
+
+                margin          : 5px;
+                border-radius   : 15px;
+                
+                display : flex      ;
+                flex    : 1 1 auto  ;
+
+                align-items     : center;
+                justify-content : center;
+                text-decoration : none  ;
+                font-size       : 25px  ;
+            }
+                .lineaRedonda a:hover{
+                    background: goldenrod;
+                }
+            .tabla{
+                background: bisque;
+
+                margin      : 5px       ;
+                display     : flex      ;
+                flex        : 1 1 auto  ;
+                flex-flow   : column    ;
+                
+                justify-content : center;
+                border-radius   : 15px  ;
+            }
+                .tabla li{
+                    margin      : 5px   ;
+                    text-align  : center;
+                }
+                .tabla li:hover{
+                    background: rgb(87, 87, 170);
+
+                    border-radius: 15px;
+                }

@@ -1,0 +1,50 @@
+*{
+    margin  : 0;
+    padding : 0;
+}
+
+section{
+    margin: 5px;
+}
+
+.cuerpo{
+    background          : url(/fotos/NubesDeColores.png);
+    background-position : center;
+    background-size     : cover ;
+
+    width   : auto  ;
+    height  : 500px ;
+    display : flex  ;
+
+    flex-wrap       : wrap          ;
+    justify-content : space-around  ;
+    align-items     : center        ;
+}
+    .articulo{
+        background: rgba(99, 93, 93, 0.55);
+        
+        width           : auto  ;
+        height          : 150px ;
+        border-radius   : 20px  ;
+
+        display     : flex  ;
+        align-items : center;
+    }
+        .avatar{
+            background: url(/Imagenes/avatar.png);
+            background-position : center;
+            background-size     : cover ;
+
+            height  : 100px ;
+            width   : 100px ;
+            margin  : 5px   ; 
+        }
+        .name{
+            background: rgb(219, 123, 55);
+
+            margin: 5px;
+
+            text-align      : center;
+            border-radius   : 10px  ;
+        }
+        

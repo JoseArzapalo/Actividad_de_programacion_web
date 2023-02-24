@@ -1,0 +1,65 @@
+*{
+    background: rgb(73, 73, 73);
+}
+
+.cuerpo{
+    background: url(/fotos/NubesDeColores.png);
+    background-position :center;
+    background-size     : cover;
+
+    height: 500px;
+
+    display         : flex          ;
+    flex-flow       : wrap          ;
+    justify-content : space-around  ;
+    
+}  
+    .articulo{
+        background: rgb(0, 0, 0);
+
+        width   : 350px ;
+        margin  : 5px   ;
+
+        border-radius   : 15px  ;
+        display         : flex  ;
+        flex-flow       : column;
+    }
+        .articulo ul{
+            background: rgb(141, 43, 43);
+
+            border-radius   : 15px  ;
+            margin          : 5px   ;
+            height          : auto  ;
+        }
+        .articulo li{
+            background: bisque;
+            
+            border-radius   : 15px  ;
+            text-align      : center;
+            margin          : 5px   ;
+        }
+            .articulo a{
+                background  : rgba(0, 0, 0, 0);
+                color       : rgb(62, 14, 14);
+
+                text-decoration : none  ;
+                margin          : 5px   ;
+            }
+            .articulo li:hover{
+                background: chocolate;
+            }
+        .text{
+            background:rgb(187, 186, 185);
+
+            display         : flex      ;
+            flex            : 1 1 auto  ;
+            justify-content : center    ;
+            align-items     : center    ;
+            width           : auto      ;
+            text-align      : justify   ;
+
+            margin          : 5px   ;
+            padding         : 5px   ;
+            border-radius   : 15px  ;
+            font-size       : 25px  ;
+        }
